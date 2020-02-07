@@ -19,6 +19,6 @@ public class Contract {
     }
 
     public static class ViolationException extends RuntimeException {
-        ViolationException(String message) {};
+        ViolationException(String message) { super(message); };
     }
 }

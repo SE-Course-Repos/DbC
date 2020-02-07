@@ -40,7 +40,7 @@ class Dictionary {
     }
 
     public void put(String key, Object value) {
-        require(key != null && key.length() != 0, "key not null or empty");
+        require(key != null && key.length() > 0, "key not null or empty");
         require(count() < capacity(), "count() < capacity()");
         contents.put(key, value);
     }

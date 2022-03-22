@@ -2,7 +2,7 @@ package edu.cs.ucsd.dbc;
 
 import java.util.HashMap;
 
-import static  edu.cs.ucsd.dbc.Contract.ensure;
+import static edu.cs.ucsd.dbc.Contract.ensure;
 import static edu.cs.ucsd.dbc.Contract.require;
 
 /*

@@ -21,7 +21,7 @@ class DictionaryTest {
 //    }
 
     @Test
-    void checkDictionaryPutContracts() {
+    void  checkDictionaryPutContracts() {
         Dictionary dict = new Dictionary(1);
         int oldCount = dict.count(); // could just say "0" since we know it's new
         dict.put("key1", "value1");
